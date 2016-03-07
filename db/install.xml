@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="artefact/resume/db" VERSION="20120416" COMMENT="XMLDB file for skillshare tables"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+    <TABLES>
+        <TABLE NAME="artefact_skillshare">
+            <FIELDS>
+                <FIELD NAME="artefact" TYPE="int" LENGTH="10" NOTNULL="true" />
+                <FIELD NAME="offered" TYPE="int" LENGTH="1" NOTNULL="true" />
+                <FIELD NAME="wanted" TYPE="int" LENGTH="1" NOTNULL="true" />
+                <FIELD NAME="statement" TYPE="text" NOTNULL="false" />
+                <FIELD NAME="statementtitle" TYPE="char" LENGTH="256" NOTNULL="false" />
+                <FIELD NAME="externalwebsite" TYPE="char" LENGTH="256" NOTNULL="false" />
+                <FIELD NAME="externalwebsiterole" TYPE="char" LENGTH="256" NOTNULL="false" />
+                <FIELD NAME="publishskills" TYPE="int" LENGTH="1" NOTNULL="true" />
+            </FIELDS>
+            <KEYS> 
+                <KEY NAME="primary" TYPE="primary" FIELDS="artefact" />
+                <KEY NAME="artefactfk" TYPE="foreign" FIELDS="artefact" REFTABLE="artefact" REFFIELDS="id" />
+            </KEYS>                                              
+        </TABLE>
+    </TABLES>
+</XMLDB>

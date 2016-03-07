@@ -1,0 +1,85 @@
+/**
+ * CSS rules for the skillshare artefact plugin
+ * Mike Kelly UAL m.f.kelly@arts.ac.uk / Catalyst
+ * This file is distributed under the same terms as Mahara itself
+ */
+#imageupload {
+    background-color: #EEEEEE;
+    border: 1px solid #D1D1D1;
+    padding: 4px;
+}
+#skillsharewrap {
+	margin-top: 20px;
+}
+#skillshareinformation {
+    margin-bottom: 50px;
+}
+#skillshareimagesfieldset{
+	margin: 0 5px;
+}
+#skillshareimages {
+	border: 1px solid #CCCCCC;
+	margin: 5px 0;	
+}
+.divrowscontainer {
+	border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    display: block;
+    margin: 5px 0;
+    padding: 10px 15px;
+	width: 700px;			
+}
+.divrowscontainerbody {	
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.columnheading {
+  display: inline-block;
+  color: #444;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 8px;
+}
+.divrow {
+	display: inline-block;
+	padding: 8px;
+}
+.divrowimg, .divrowdelete {
+ 	width: 120px;
+}
+.columnheading.divrowrole {
+	width: 400px;	
+}
+.divrow.divrowrole {
+ 	width: 400px;
+ 	vertical-align: top;
+	margin: 10px 0 0 8px;
+}
+.divrow.divrowdelete {
+ 	width: 120px;
+ 	vertical-align: top;
+	margin: 10px 0 0 8px;
+}
+.divrowmove {
+	cursor: move;
+	border: 1px dashed #CCCCCC;
+	vertical-align: top;
+	margin: 15px 0 0 8px;
+}
+#exampleimagesfooter {
+ 	width: 640px;
+ 	margin: 8px 0;
+}
+#exampleimagesrearrange {
+	visibility: hidden;
+}
+.ui-state-highlight {
+	height: 100px;
+	border: 2px dashed #CCC;
+	margin: 8px;	
+}
+.noimagesfound {
+    background-color: #EEEEEE;
+    border: 1px solid #D1D1D1;
+    padding: 8px;
+}
